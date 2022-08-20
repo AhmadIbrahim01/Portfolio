@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/cards.css">
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<!----hero Section start---->
+
+	<div class="hero" id="section1">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#section2">About Me</a></li>
+				<li><a href="#section3">My Projects</a></li>
+				<li><a href="#section4">Contact Me</a></li>
+			</ul>
+		</nav>
+
+		<div class="content one">
+			<h2>I'm Ahmad<span>Ibrahim</span></h2>
+			<p class="auto1">Web Developer.</p>
+		</div>
+		<div class="content two">
+			<h2>I'm Ahmad<br><span>Ibrahim</span></h2>
+			<p class="auto2">Web Developer.</p>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section class="about" id="section2">
+		<div class="main">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>
+					Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+					Praesentium nemo quae deserunt aliquam expedita tempore! Laudantium,
+					nobis. Commodi, quod ad. Lorem ipsum dolor sit amet consectetur
+					adipisicing elit. Illum iusto sequi dolores nulla quibusdam
+					architecto porro officiis, delectus tenetur neque? Quasi ex pariatur
+					modi laudantium ipsam officia numquam corrupti, inventore sequi
+					consequatur cum ad ducimus aliquid, necessitatibus voluptas. Autem,
+					sint. ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+					ore.
+				</p>
+			</div>
+		</div>
+		<div class="me">
+			<img src="img/me.png" alt="">
+		</div>
+	</section>
+
+	<!-----service section start----------->
+		<div class="service" id="section3">
+			<div class="title">
+				<h2>My Projects</h2>
+			</div>
+			<div class="container flex">
+				<div class="cards flex">
+					<div class="card card1">
+						<div class="cont flex">
+							<img style="width: 24%;" src="img/doctor.png">
+							<h1>Medical System</h1>
+							<p>
+							Built a medical system for patients,
+							doctors, pharmacies and hospitals to 
+							interact and make transactions online using the system
+							</p>
+							<a href="https://sportsland000.000webhostapp.com/" target="_blank"><button>View</button></a>
+						</div>
+					</div>
+					<div class="card card2">
+						<div class="cont flex">
+							<img src="img/kid.png">
+							<h1>E-Commerce Sport</h1>
+							<p>
+							A web system for sports lovers who can
+							view the latest news for their preferable
+							sport and buy tickets for World Cup, 
+							and shop in our sport clothes store
+							</p>
+							<button>View</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+	<!------Contact Me------>
+	<div class="contact-me" id="section4">
+        <div class="let"><h1>Let Us <span>Talk!</span></h1></div>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="100"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+	</div>
+
+	<!------footer start--------->
+	<footer>
+		<div class="fabs">
+			<ul>
+			  <li><a href="https://www.facebook.com/people/Ahmad-Ibrahim/100005751078021/" target="_blank">
+				  <i class="fab fa-facebook" tabindex="0"></i>
+				</a></li>
+			  <li><a href="https://www.instagram.com/ahmadibrahim20/" target="_blank">
+				  <i class="fab fa-instagram" tabindex="0"></i>
+				</a></li>
+			  <li><a href="https://github.com/AhmadIbrahim01" target="_blank">
+				  <i class="fab fa-github" tabindex="0"></i>
+				</a></li>
+			</ul>
+		  </div>
+
+
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script>
+		var typed = new Typed(".auto1", {
+		  strings: ["Web Developer.", "UI/UX Designer.", "Web Developer.", "UI/UX Designer.","Web Developer.", "UI/UX Designer.", "Web Developer.", "UI/UX Designer."],
+		  typeSpeed: 100,
+		  backSpeed: 100,
+		  loop: true,
+		});
+		var typed = new Typed(".auto2", {
+		  strings: ["Web Developer.", "UI/UX Designer.", "Web Developer.", "UI/UX Designer.","Web Developer.", "UI/UX Designer.", "Web Developer.", "UI/UX Designer."],
+		  typeSpeed: 100,
+		  backSpeed: 100,
+		  loop: true,
+		});
+	  </script>
+</body>
+</html>

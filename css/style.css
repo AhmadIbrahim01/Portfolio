@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+html{
+	scroll-behavior: smooth;
+
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background: #101010;
+		background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: rgba(20, 20, 219, 0.822);
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: rgba(20, 20, 219, 0.822);;
+	transition: .8s; 
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+.one{
+	display: block;
+}
+.two{
+	display: none;
+}
+@media screen and (max-width: 900px) {	
+	.one{
+		display: none;
+	}
+	.two{
+		display: block;
+	}
+
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h2{
+	color: white;
+	font-size: 75px;
+
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+p{
+	color: rgba(20, 20, 219, 0.822);
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+
+.about{
+	width: 100%;
+	padding: 50px 0px;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,62,175,1) 62%, rgba(0,212,255,1) 100%);
+	display: flex;
+}
+.main{
+	width: 60%;
+	flex: 1;
+	margin-left: 10%;
+}
+.me{
+	width: 40%;
+	flex: 1;
+}
+.me img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	transform: translate(20%, 20%);
+}
+.about-text{
+	width: 100%;
+}
+
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+button{
+	background-color:#191919;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid white;
+	cursor: pointer;
+}
+
+.service{
+	background: #101010;
+	width: 100%;
+	padding: 10px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 100%;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #B1D0E0;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+/*CONTACT*/
+.contact-me{
+	width: 100%;
+	height: 100%;
+	background: #355764;
+	background: linear-gradient(200deg, rgba(2,0,36,1) 0%, rgba(79,62,175,1) 62%, rgba(0,212,255,1) 100%);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.contact-me h1{
+    font-size: 75px;
+	padding: 0px;
+	margin: 0px;	
+
+}
+
+.contact-me .box{
+    flex-direction: column;
+}
+
+.box div{
+    width: 40%;
+    margin: auto;
+	position: relative;
+
+}
+.contact-me .box input{
+    width: 100%;
+    margin: auto;
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 9px 40px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.box div i{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    top: 20px;
+    left: 20px;
+}
+.contact-me .box textarea{
+    width: 60%;
+    background-color: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid white;
+    outline: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact-me .box textarea::placeholder{
+	color: white;
+	opacity: .7;
+}
+
+.send{
+    background: white;
+    font-size: 19px !important;
+    font-weight: 600;
+    cursor: pointer;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+
+
+
+
+
+/*FOOTER*/
+footer{
+	padding: 1px;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	background: linear-gradient(200deg, rgba(2,0,36,1) 0%, rgba(79,62,175,1) 62%, rgba(0,212,255,1) 100%);
+	background: #191919;
+}
+footer p{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2rem;
+  color: #eee;
+}
+footer a {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2rem;
+  color: #eee;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+footer ul li {
+  padding: 1rem;
+}
+
+.fab {
+  font-size: 5rem;
+}
+
+
+
+/* transition for social icon hover animation */
+.fa-facebook,
+.fa-instagram,
+.fa-github{
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* social media icons hover color */
+.fa-facebook:hover,
+.fa-facebook:focus {
+  color: #1877f2;
+  transform: scale(1.1);
+}
+
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+  color: #bd22a2;
+  transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+  color: white;
+  transform: scale(1.1);
+}
+
+.fabs:hover .fab{
+    filter: blur(15px);
+    transform:scale(1);
+    opacity: 0.5;
+}
+.fabs .fab:hover{
+    filter: blur(0px);
+    transform:scale(1.5);
+    opacity: 1;
+}
+.fabs{
+	width: 380px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
